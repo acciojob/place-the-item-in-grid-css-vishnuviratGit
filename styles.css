@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder{
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	display: grid;
+	grid-template-columns: repeat(2, 100px);
+	grid-template-rows: repeat(2, 100px);
+	border: 1px solid black
+}
+.item{
+	border: 1px solid black
+}
